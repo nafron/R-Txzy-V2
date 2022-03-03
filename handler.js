@@ -404,16 +404,16 @@ module.exports = {
             for (let user of participants) {
               let kai = await(await fetch('https://telegra.ph/file/4d2bca79fa5a4f2dd3d81.jpg')).buffer()
               let poi = await(await fetch('https://telegra.ph/file/39bbded9693c9338069fd.jpg')).buffer()
-              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
-                  (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
+              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Selamat Datang di Group Fron BOT , @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
+                  (chat.sBye || this.bye || conn.bye || 'Fron BOT:Gw Tandai lu 🗿, @user!')).replace(/@user/g, '@' + user.split`@`[0])
                 let wel = `Welcome Message`
                 let lea = `Group Participant Leave`
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
                 externalAdReply: {
-                  mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
+                  mediaUrl: 'https://youtube.com/channel/UCafhMtYpLNgvoAVDFNrQgdg',
                   title: action === 'add' ? wel : lea,
-                  body: 'R-Txzy',
+                  body: 'Fron BOT',
                   thumbnail: poi
                 }
               }}) 

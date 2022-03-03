@@ -19,9 +19,9 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ╠➥ *DAN 200 LEBIH*
 ║   *FITUR LAINNYA*
 ║ 
-╠═ ©2021 Rpg wabot-aq
+╠═ ©2022 Nafron
 ╠═ Scrip original by Nurutomo
-╠═〘 R-Txzy 〙 ═
+╠═〘 Fron BOT 〙 ═
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 

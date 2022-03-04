@@ -1,8 +1,9 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via Pulsa +5k
-╠➥ Cht Owner
-║
+╠➥ *081252733108*
+║- Chat Owner Terlebebih
+║ Dahulu
 ╠═〘 Fitur 〙 ═
 ║
 ╠➥ *FITUR WELCOME*
@@ -20,8 +21,7 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ║   *FITUR LAINNYA*
 ║ 
 ╠═ ©2022 Nafron
-╠═ Scrip original by Nurutomo
-╠═〘 Fron BOT 〙 ═
+╠═〘 FRON BOT 〙 ══
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 

@@ -20,7 +20,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'cristian', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'vote', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'vote', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
@@ -232,10 +232,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "title": "|🕋| Islam",
                                     "description": "Menu Tentang Islam",
                                     "rowId": ".? quran"
-                                }, {
-                                	"title": "|⛪| Cristian",
-                                    "description": "Menu Tentang Kristen",
-                                    "rowId": ".? cristian"
                                 }, {
                                     "title": "|🏫| Edukasi",
                                     "description": "Menu Edukasi",

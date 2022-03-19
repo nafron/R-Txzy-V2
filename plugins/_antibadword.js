@@ -13,12 +13,12 @@ handler.before = function (m, { isOwner, isBotAdmin }) {
         user.warning += 1
         this.send2Button(m.chat, `*Badword terdeteksi!*
 Warning: ${user.warning} / 5
-Jika warning mencapai 5 kamu akan dibanned
+Jika warning mencapai 5 kamu akan dibanned Menggunakan FRON BOT
 
 ketik *#on antibadword* untuk menyalakan antibadword
 ketik *#astagfirullah* atau *#maaf* untuk mengurangi warning
 
-“Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, watermark, 'Nyalakan Antibadword', ',1 antibadword', 'Astaghfirullah', ',maaf', m)
+“Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, watermark, 'Terima kasih Fron BOT', ',1 antibadword', 'Astaghfirullah', ',maaf', m)
         if (user.warning >= 5) {
             user.banned = true
             if (m.isGroup) {
@@ -30,4 +30,6 @@ ketik *#astagfirullah* atau *#maaf* untuk mengurangi warning
     }
     return !0
 }
+handler.premium = true
+
 module.exports = handler
